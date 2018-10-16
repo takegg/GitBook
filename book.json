@@ -1,0 +1,9 @@
+{
+  "title": "标题",
+  "description": "",
+  "plugins": [
+    "expandable-chapters-small"
+  ],
+  "pluginsConfig": {
+  }
+}
