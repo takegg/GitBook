@@ -9,6 +9,7 @@
     * [git](tools/git/git.md)
         * [删除远程仓库某文件夹](tools/git/deldirect.md)
         * [command](tools/git/command.md)
+    * [youtube-dl](tools/git/youtube-dl.md)
 * [TensorFlow](TensorFlow/TensorFlow.md)
     * [API_Python](TensorFlow/API_Python/API_Python.md)
         * [tf](TensorFlow/API_Python/tf/tf.md)
