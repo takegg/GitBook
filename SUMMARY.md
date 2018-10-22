@@ -1,6 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
+* [Linux](tools/Linux.md)
+    * [echo](tools/echo.md)
 * [工具](tools/tools.md)
     * [gitbook](tools/gitbook/gitbook.md)
         * [命令](tools/gitbook/command/command.md)
@@ -8,6 +10,7 @@
             * [目录折叠](tools/gitbook/pluge/mlzd/index.md)
     * [git](tools/git/git.md)
         * [删除远程仓库某文件夹](tools/git/deldirect.md)
+        * [gerrit](tools/git/gerrit.md)
         * [command](tools/git/command.md)
     * [youtube-dl](tools/git/youtube-dl.md)
 * [TensorFlow](TensorFlow/TensorFlow.md)
@@ -21,7 +24,9 @@
             * [placeholder](TensorFlow/API_Python/tf/placeholder.md)
             * [reduce_mean](TensorFlow/API_Python/tf/reduce_mean.md)
             * [reshape](TensorFlow/API_Python/tf/reshape.md)
+            * [Session](TensorFlow/API_Python/tf/Session.md)
             * [set_random_seed](TensorFlow/API_Python/tf/set_random_seed.md)
+            * [truncated_normal](TensorFlow/API_Python/tf/truncated_normal.md)
 * [e-books](e-books/e-books.md)
     * [I,robot](e-books/i_robot.md)
         * [Introduction](e-books/i_robot/Introduction.md)

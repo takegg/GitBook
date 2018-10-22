@@ -65,5 +65,5 @@ youtube-dl [OPTIONS] URL [URL...]
 ### 常用命令
 
 ```shell
-
+youtube-dl --merge-output-format mp4 [url]
 ```

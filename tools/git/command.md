@@ -110,6 +110,9 @@ $ git branch [branch] [commit]
 # 新建一个分支，与指定的远程分支建立追踪关系
 $ git branch --track [branch] [remote-branch]
 
+# 新建一个与远程分支相同的分支
+$ git branch -b [local-branch] origin/[remote-branch]
+
 # 切换到指定分支，并更新工作区
 $ git checkout [branch-name]
 
@@ -291,6 +294,13 @@ $ git stash
 $ git stash pop
 ```
 
+### 变基
+
+```shell
+$ git rebase [option(--continue 继续| --abort 中断| --skip 跳过)]
+
+
+```
 
 ### 其他
 ```shell
