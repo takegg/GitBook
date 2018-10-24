@@ -55,3 +55,5 @@ scp /opt/soft/nginx-0.5.38.tar.gz root@192.168.120.204:/opt/soft/scptest
 命令：
 
 scp -r /opt/soft/mongodb root@192.168.120.204:/opt/soft/scptest
+
+scp -r root@192.168.1.104:/var/mobile/Downloads/ /Volumes/素材/素材/
