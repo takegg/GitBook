@@ -17,6 +17,8 @@
         * [command](tools/git/command.md)
     * [youtube-dl](tools/git/youtube-dl.md)
 * [javascript](javascript/javascript.md)
+    * [tools](javascript/tools/tools.md)
+        * [webpack](javascript/tools/webpack/webpack.md)
     * [library](javascript/library/library.md)
         * [VUE](javascript/library/VUE/VUE.md)
             * [VUE_loader](javascript/library/VUE/VUE_loader.md)

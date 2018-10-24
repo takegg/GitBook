@@ -1,28 +1,21 @@
 # IOS
 
-### 安装pip
+### 安装python2.7.3 
 
-1. 安装GCC
+添加源
 
-```shell
-#1、下载源码
-$ wget ftp://ftp.gnu.org/gnu/gcc/gcc-8.2.0/gcc-8.2.0.tar.gz
+http://cydia.radare.org/
 
-$ tar zxf gcc-8.2.0.tar.gz
+或者直接下载
 
-$ cd gcc-8.2.0
+http://cydia.radare.org/debs/python2.7.3-3iphoneos-arm.deb
 
-$ ./contrib/download_prerequisites
+dpkg -i python2.7.３-３iphoneos-arm.deb
 
-#2、编译安装
-$ mkdir gcc-build-8.2.0
-$ cd gcc-build-8.2.0
-$ ../configure --prefix=/usr
-$ make && make install
+另外一个下载地址
 
-#3、查看版本号
-$ gcc --version
-$ g++ --version
-$ which gcc
-$ which g++
-```
+https://yangapp.googlecode.com/files/python2.7.3-3iphoneos-arm.deb
+
+编译方法
+
+https://github.com/linusyang/python-for-ios
