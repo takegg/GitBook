@@ -2,7 +2,8 @@
   "title": "标题",
   "description": "",
   "plugins": [
-    "expandable-chapters-small"
+    "expandable-chapters-small",
+    "katex"
   ],
   "pluginsConfig": {
   }
