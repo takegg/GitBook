@@ -34,11 +34,11 @@ $ npm install vuex --save
 ```
 ```
 
-#### 配置路由
+## 配置路由
 ```bash
 ```
 
-### 环境变量
+## 环境变量
 
 1. 安装cross-env
 ```bash
@@ -85,3 +85,7 @@ $ npm install --save-dev cross-env
    'dev:D':"cross-env PROJECT_ENV=DEV_ENV webpack-dev-server --line --progress --config build/webpack.dev.conf.js",
    ```
    ......等，根据需求定义。也可以定义一个dll.js来囊括所有插件包。
+
+
+## 目录结构
+
