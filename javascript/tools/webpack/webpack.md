@@ -1,6 +1,7 @@
 # webpack
 
 # <a href="https://webpack.docschina.org/concepts/">中文文档</a>
+# <a href="https://webpack.toobug.net/zh-cn/">webpack指南</a>
 
 ### webpack-cli 参数
 ```shell
