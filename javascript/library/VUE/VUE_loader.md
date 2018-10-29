@@ -4,7 +4,7 @@
 
 ## 安装并配置插件
 
-#### scss
+#### 安装并配置scss
 
 ```shell 
 $ npm install node-sass --save-dev
@@ -19,16 +19,20 @@ $ npm install sass-loader --save-dev
   }
 ```
 
-#### 安装并配置axios
-1. 安装
+#### 1. 安装并配置axios
+
+  安装
   ```bash
   $ npm install axios --save
   ```
-2. 配置
-    在src下新建services/index.js，
+    
+  配置
+
+  在src下新建services/index.js，
   ```
   ```
-#### 安装vuex
+
+#### 2. 安装vuex
   ```bash
   $ npm install vuex --save
   ```
@@ -36,7 +40,7 @@ $ npm install sass-loader --save-dev
   ```
   ```
 
-## 配置路由
+#### 3. 配置路由vue-router
   ```bash
   ```
 
