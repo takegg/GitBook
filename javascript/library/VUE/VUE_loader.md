@@ -116,6 +116,30 @@ $ npm install sass-loader --save-dev
 |  +--index.js
 |  +--env.config.js                 # 多环境配置
 +--src                              # 项目源码
+|  +--app.js                        # 打包入口文件
 +--static                           # 项目静态资源
 ```
 
+### 全局引入
+app.js
+```js
+<!-- 常规引入 -->
+import Vue from 'vue'
+import App from './App'
+import router from './router'
+import store from './store'
+
+
+import {Plugin1,Plugin2} from '~@/plugins/'
+<!-- 还可引入公共css,js等 -->
+Vue.use(Plugin1)
+Vue.use(Plugin2)
+
+new Vue({
+  el: '#app',
+  store,
+  router,
+  template: '<App/>',
+})
+
+```
