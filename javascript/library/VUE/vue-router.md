@@ -5,9 +5,9 @@
 |  +--router
 |  |  +--index.js
 |  |  +--map
-|  |  |  +--example_router.js
+|  |  |  +--example_router.js // 按业务划分路由模块
 |  +--views
-|  |  +--example_module
+|  |  +--example_module // 按业务划分模块目录
 |  |  |  +--example.vue
 ```
 

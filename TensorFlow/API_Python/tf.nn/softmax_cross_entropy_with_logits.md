@@ -10,7 +10,7 @@ tf.nn.softmax_cross_entropy_with_logits(
 )
 ```
 
-计算`logits`和`labels'之间的softmax交叉熵。（弃用）
+计算`logits`和`labels'之间的softmax交叉熵。**（弃用）**
 TensorFlow的未来主要版本将允许梯度在默认情况下流入backprop上的标签输入。
 未来使用tf.nn.softmax_cross_entropy_with_logits_v2。
 
