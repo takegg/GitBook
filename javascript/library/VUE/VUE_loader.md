@@ -117,7 +117,22 @@ $ npm install sass-loader --save-dev
 |  +--env.config.js                 # 多环境配置
 +--src                              # 项目源码
 |  +--app.js                        # 打包入口文件
-+--static                           # 项目静态资源
+|  +--services                      # 网络请求
+|  |  +--index.js
+|  |  +--example.js
+|  +--views                         #视图
+|  |  +--example.vue
+|  +--assets                        # 项目线上静态资源
+|  |  +--style
+|  |  +--js
+|  |  +--picture
+|  |  +--front
+|  +--store                        # vuex状态控制模块
+|  |  +--modules
+|  |  |  +--exampleMoudules.js
+|  |  +--index.js
+|  |  +--mutationType.js
++--static                           # 项目非线上静态资源
 ```
 
 ### 全局引入
