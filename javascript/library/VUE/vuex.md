@@ -103,10 +103,12 @@ import {mapActions,mapGetters,mapMutations} from 'vuex';
         methods:{
             ...mapActions({ // 异步函数
                 customeAsyncFn:'set_example_action'
-            })
+            }),
+            // this.$store.dispatch(actionName) 直接触发
             ...mapMutations({ // 同步函数
                 customeFn:'SET_EXAMPLE' // 映射 `this.customeFn()` 到 `this.$store.commit('SET_EXAMPLE')`
             })
+            // this.$store.commit('mutationName') 直接触发
         },
         computed:{
             ...mapGetters({
