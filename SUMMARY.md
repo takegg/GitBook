@@ -2,8 +2,11 @@
 
 * [Introduction](README.md)
 * [Linux](Linux/Linux.md)
+    * [ubuntu](Linux/ubuntu.md)
+        * [ubuntu_server_install](Linux/ubuntu_server_install.md)
     * [usual-command](Linux/usual-command.md)
     * [echo](Linux/echo.md)
+    * [nohup](Linux/nohup.md)
     * [IOS6](Linux/IOS6.md)
     * [scp](Linux/scp.md)
     * [top](Linux/top.md)

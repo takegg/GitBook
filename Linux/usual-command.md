@@ -22,3 +22,7 @@
   ```bash
   ls -lR|grep "^d"|wc -l
   ```
+
+## shell快捷键
+1. ctrl+c 杀死进程
+2. ctrl+z 暂停进程
