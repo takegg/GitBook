@@ -158,3 +158,50 @@ new Vue({
 })
 
 ```
+
+### .VUE文件
+```html
+<template>
+  <div></div>
+</template>
+
+<script>
+import {}from'@/xxx'
+export default{
+  data(){
+    return{
+      xxx:""
+    }
+  },
+  computed(){
+
+  },
+  mounted(){
+
+  },
+  beforeCreate(){
+
+  },
+  directives:{
+    xxx:{
+      bind:(el, binding, vnode)=>{}
+    }
+  },
+  methods:{
+    initData () {}
+  },
+  filters:{
+    xxx(value){
+
+    }
+  },
+  watch:{
+    xxx:{
+      handler (value, oldValue) {}
+    }
+  }
+}
+</script>
+
+<style lang="scss" scoped></style>
+```

@@ -149,7 +149,7 @@ example.vue
 </template>
 
 <script>
-    import ajaxService from '@services/example.js'
+    import ajaxService from '@/services/example.js'
 
     export default {
         methods:{
