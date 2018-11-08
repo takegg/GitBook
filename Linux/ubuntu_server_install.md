@@ -8,7 +8,6 @@ $ sudo apt-get install exfat-fuse exfat-utils
 $ sudo mkdir /media/exfat
 $ sudo mount -t exfat /dev/sdb1 /media/exfat
 $ sudo umount /dev/sdc1 # 卸载U盘
-<<<<<<< HEAD
 $ sudo umount -l /dev/sdb1  强制卸载 
 ```
 每个文件夹只能挂载一个盘
@@ -81,7 +80,6 @@ sudo killall minidlna
 10、卸载minidlna
 
 sudo apt-get remove --purge minidlna
-=======
 ```
 
 ## 设置静态IP
@@ -211,4 +209,3 @@ sudo apt-get remove --purge minidlna
     即可生成相应文件：/usr/lib/locale/zh_CN.gbk/
 
     最后重启ubuntu。
->>>>>>> 27aad4be34eb87fcb346a8f5e2b3c87201af336c
