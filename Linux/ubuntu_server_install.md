@@ -135,3 +135,9 @@ $ sudo umount /dev/sdc1 # 卸载U盘
     即可生成相应文件：/usr/lib/locale/zh_CN.gbk/
 
     最后重启ubuntu。
+
+
+    ### 修改密码
+    ```shell
+    sudo passwd
+    ```
