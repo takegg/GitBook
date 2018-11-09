@@ -39,7 +39,7 @@ sudo apt-get install minidlna
 sudo vi /etc/minidlna.conf
 
 #可参考修改的项有：
-
+```
 参数名	说明
 port	服务端口，默认为8200。如果有防火墙配置，需要开放。
 media_dir
@@ -83,6 +83,7 @@ sudo apt-get remove --purge minidlna
 ```
 
 ## 设置静态IP
+
 1. - 编辑/etc/network/interfaces文件：
 ```shell
     1.vim  /etc/network/interfaces
