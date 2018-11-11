@@ -105,4 +105,6 @@ network:
             nameservers:
                 addresses: [192.168.1.1]
     version: 2
+
+$ sudo netplan apply ##应用修改，不行就sudo netplan  --debug apply。
 ```
