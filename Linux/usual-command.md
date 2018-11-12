@@ -22,6 +22,10 @@
   ```bash
   ls -lR|grep "^d"|wc -l
   ```
+2. 统计文件夹下包含某string的文件个数
+  ```bash
+  ls -l | grep string | wc -l
+  ```
 
 ## shell快捷键
 1. ctrl+c 杀死进程
