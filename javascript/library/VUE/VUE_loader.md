@@ -176,10 +176,12 @@ export default{
   computed(){
 
   },
-  mounted(){
+  beforeCreate(){
 
   },
-  beforeCreate(){
+  created() {},
+  beforeMount() {},
+  mounted(){
 
   },
   directives:{

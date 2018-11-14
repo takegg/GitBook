@@ -26,6 +26,7 @@
         * [webpack](javascript/tools/webpack/webpack.md)
     * [library](javascript/library/library.md)
         * [VUE](javascript/library/VUE/VUE.md)
+            * [经验总结](javascript/library/VUE/experience.md)
             * [VUE_loader](javascript/library/VUE/VUE_loader.md)
             * [axios](javascript/library/VUE/axios.md)
             * [vue-router](javascript/library/VUE/vue-router.md)
