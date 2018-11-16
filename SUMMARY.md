@@ -36,6 +36,7 @@
     * [native](javascript/native/native.md)
         * [Arrow_Functions](javascript/native/Arrow_Functions.md)
         * [export_import](javascript/native/export_import.md)
+        * [正则](javascript/native/RegExp.md)
 * [HTML_CSS](HTML_CSS/HTML_CSS.md)
     * [CSS](HTML_CSS/CSS/CSS.md)
         * [background](HTML_CSS/CSS/background.md)

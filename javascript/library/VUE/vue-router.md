@@ -46,3 +46,7 @@ export default [
     { name: 'example', path: '/example', component: example, meta: {title: '标题'} },
 ];
 ```
+
+### 助记
+- 获取用this.$route.query.property;
+- 跳转用this.$router.push({name:'路由名',query:{"参数名":""}});或者{path:"/xxx"}
