@@ -14,3 +14,7 @@
 5. 推送新布丁到Gerrit (git push)
 
 ---
+
+### 提交远程报错“implicit merges detected”
+
+原因：git pull origin branchName后没有commit
