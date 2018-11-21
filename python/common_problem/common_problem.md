@@ -8,6 +8,7 @@ from __future__ import print_function
 ```
 
 ## python3中zip与range的for in 错误
+python2中返回的是list，而python3中返回的是迭代器，所以要用list转换下
 
 ```py
 #LATITUDE_RANGESx = zip(range(32, 44), range(33, 45))这样会只循环第一次的
