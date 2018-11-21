@@ -5,7 +5,10 @@
 ```shell
 youtube-dl [OPTIONS] URL [URL...]
 ```
-
+### 选项
+```
+-i, --ignore-errors                 当下载错误继续下载，例如列表中的不可用视频
+```
 ### 视频选择
 
 ```
