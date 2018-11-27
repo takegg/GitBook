@@ -30,3 +30,10 @@
 ## shell快捷键
 1. ctrl+c 杀死进程
 2. ctrl+z 暂停进程
+
+## 批量重命名
+```shell
+sudo apt install rename
+sudo rename -v 's/.webm/.mp4/' *.webm
+```
+  >https://www.linuxidc.com/Linux/2016-11/137041.htm

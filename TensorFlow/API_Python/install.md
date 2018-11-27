@@ -6,11 +6,19 @@
 3. 切换到env
 4. 按装jupyterNotebook，并测试，如不成功则参考base中的默认安装包。
 5. 安装TensorFlow
+    ```shell
+    # 引入模块错误
+    ImportError: No module named 'tensorflow'
+    # 错误解决
+    pip install --upgrade -I setuptools
+    # https://www.tensorflow.org/install/pip 查看Tensorflow的版本
+    pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.12.0-py3-none-any.whl
+    ```
 6. 安装matplotlib
-7. vscode切换编译器按F1，切换到env
-8. 安装pandas
-9. 安装scikit-learn
-10. 启动tensorboard
+7. 安装pandas
+8. 安装scikit-learn
+9. 启动tensorboard
+10.  vscode切换编译器按F1，切换到env
 ```shell
 tensorboard --logdir mylogdir
 # 或
