@@ -21,6 +21,8 @@
         * [command](tools/git/command.md)
     * [youtube-dl](tools/youtube-dl.md)
     * [Jupyter_Notebook](tools/Jupyter_Notebook.md)
+    * [3D_Printer](tools/3D_Printer/3D_Printer.md)
+        * [组装](tools/3D_Printer/build_3D_Printer.md)
 * [javascript](javascript/javascript.md)
     * [tools](javascript/tools/tools.md)
         * [webpack](javascript/tools/webpack/webpack.md)
