@@ -37,3 +37,19 @@ sudo apt install rename
 sudo rename -v 's/.webm/.mp4/' *.webm
 ```
   >https://www.linuxidc.com/Linux/2016-11/137041.htm
+
+## du命令
+
+```
+//查看系统中文件的使用情况
+df -h
+//查看当前目录下各个文件及目录占用空间大小
+du -sh *
+
+//方法一：切换到要删除的目录，删除目录下的所有文件
+rm -f *
+
+//方法二：删除logs文件夹下的所有文件，而不删除文件夹本身
+rm -rf log/*
+```
+> <a href="https://blog.csdn.net/justdoithai/article/details/70216480">更多</a>

@@ -113,3 +113,71 @@ network:
 
 $ sudo netplan apply ##应用修改，不行就sudo netplan  --debug apply。
 ```
+
+### 挂载并访问iPhone
+
+1.安装libimobiledevice-dev库("-dev"不能少了)
+```
+sudo apt-get update  (更新一下源,我用的163源)
+
+sudo apt-get install libimobiledevice-dev
+```
+2.安装ifuse
+
+sudo apt-get install ifuse
+
+3.创建一个挂载点(随便创建，我在/media目录下创建了ｕ目录)
+
+sudo mkdir /media/u
+
+4.使用ifuse挂载
+
+ifuse /media/u
+
+5.使用ls和df检查
+
+ls /media/u
+
+显示以下内容:
+
+AirFair  Downloads      PhotoData  PublicStaging  Recordings
+Books     general_storage  Photos     Purchases        report_3K.plist
+DCIM     iTunes_Control   Podcasts   Radio
+
+
+df -h
+
+显示以下内容:
+
+ifuse            13G   13G  289M   98% /media/u
+
+表明已经挂载iphone成功!!!!
+
+6.卸载
+
+fusermount -u /media/u
+
+7.安装其他工具
+
+sudo apt-get install ideviceinstaller
+
+sudo apt-get install libimobiledevice-utils
+
+ideviceinfo可以用来查看iphone的相关信息
+
+8. USB拷贝至U盘
+```
+sudo mount -t exfat /dev/sdb5 /media/udisk
+cd /media/udisk
+nohup scp root@192.168.1.21:/var/mobile/Documents/inventor2018.zip /media/udisk/
+```
+
+### 出现Permission denied的解决办法
+ubuntu安装好后，root初始密码（默认密码）不知道，需要设置。
+
+1. 先用安装ubuntu的时候创建的用户登录到系统
+2. 然后输入命令：sudo passwd  摁回车
+3. 接下来会提示您：输入新密码，重复输入密码，最后提示您passwd：password updated sucessfully
+此时已完成root密码的设置
+4. 接着就可以输入命令：su root
+即以root的身份登录到系统里面去了，此时你再拷贝文件，就ok啦
