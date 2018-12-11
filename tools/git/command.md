@@ -105,7 +105,7 @@ $ git branch [branch-name]
 $ git checkout -b [branch]
 
 # 新建一个分支，指向指定commit
-$ git branch [branch] [commit]
+$ git branch -b [branch] [commit]
 
 # 新建一个分支，与指定的远程分支建立追踪关系
 $ git branch --track [branch] [remote-branch]
