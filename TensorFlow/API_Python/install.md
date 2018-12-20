@@ -17,8 +17,9 @@
 6. 安装matplotlib
 7. 安装pandas
 8. 安装scikit-learn
-9. 启动tensorboard
-10.  vscode切换编译器按F1，切换到env
+9. 安装seaborn
+10. 启动tensorboard
+11.  vscode切换编译器按F1，切换到env
 ```shell
 tensorboard --logdir mylogdir
 # 或
