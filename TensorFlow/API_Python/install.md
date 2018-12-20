@@ -18,6 +18,8 @@
 7. 安装pandas
 8. 安装scikit-learn
 9. 安装seaborn
+   1. apply无反应，重启anacoda再安装。
+   2. 如失败，则在相应环境执行conda install seaborn
 10. 启动tensorboard
 11.  vscode切换编译器按F1，切换到env
 ```shell
