@@ -33,21 +33,30 @@ Bed: 110 °C
 # marlin的Configuration.h配置
 
 ## 三轴及挤出机单位配置
+> **目前配件**<br/>
+> motor 是nema 17hs4401:每转200步，考虑微步3200<br/>
+> 皮带：节距2MM，齿高0.75，厚1.38，半径0.8，
+> 皮带轮：20齿，内孔6.36mm，M4顶丝，直径16，整高16，齿宽7
+> 挤出机：送料轮（26齿，11*11mm,内孔5mm,齿轮外径11MM，齿轮部位7mm--可能是内孔），
+> T8丝杆：螺距2mm
 ``` c++
 #define DEFAULT_AXIS_STEPS_PER_UNIT {78.7402,78.7402,200*8/3,760*1.1}
 #define 默认轴每单位步数 {X轴每单位步数, Y轴每单位步数, Z轴每单位步数, 挤出机每单位步数}
 
-// 皮带轮轴计算
+// 皮带轮轴计算,每单位为mm
 // Steps per Unit (X and Y Axes) = Motor Steps per Revolution / Idler Teeth / Belt Pitch
 // 每单位步数 (X、Y轴) = 电机每转的步数 / 空转齿 / 皮带间距
+// 目前：3200/20/2=80
 
 // 螺杆驱动轴计算
 // Steps per Unit (Z Axis) = Motor Steps per Revolution / Rod Pitch
 // 每单位步数（Z轴）=每转的电机步数/杆节距
+// 目前:3200/2=1600
 
 // 挤出机
 // Steps per Unit (Extruder) = Motor Steps per Revolution * Extruder Gear Ratio / (Pinch Wheel Diameter * Pi)
 // 每单位步数（挤出机）=每转的电机步数*挤出机齿轮比/（夹紧轮直径* Pi）
+// 目前为：3200/26/11*pi =3.56(为无齿轮比类型)
 ```
 > **电机每转步数**：由电机确定的这些方程中的变量是“每电机转速步数”，这是电机进行一次，完整，三百六十度转动所需的步数。
 > 对于0.9度步进器，这将是360°/ 0.9°，或400步全步。可是等等！我们还必须考虑微步进 - 这通常以1/8或1/16为增量（Pololu驱动器为1/16）。<br/>
