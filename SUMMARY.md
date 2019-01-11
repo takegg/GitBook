@@ -57,6 +57,8 @@
     * [common_problem](python/common_problem/common_problem.md)
     * [api](python/api/api.md)
         * [with_as](python/api/with_as.md)
+    * [numpy](python/numpy/numpy.md)
+        * [mean](python/numpy/mean.md)
 * [TensorFlow](TensorFlow/TensorFlow.md)
     * [API_Python](TensorFlow/API_Python/API_Python.md)
         * [install](TensorFlow/API_Python/install.md)
