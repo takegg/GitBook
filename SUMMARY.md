@@ -59,6 +59,7 @@
         * [with_as](python/api/with_as.md)
     * [numpy](python/numpy/numpy.md)
         * [mean](python/numpy/mean.md)
+        * [flatten](python/numpy/flatten.md)
 * [TensorFlow](TensorFlow/TensorFlow.md)
     * [API_Python](TensorFlow/API_Python/API_Python.md)
         * [install](TensorFlow/API_Python/install.md)
