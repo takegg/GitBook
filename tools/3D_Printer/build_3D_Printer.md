@@ -153,3 +153,23 @@ M3螺母4个
 12v20A电源1个
 
 耐热胶带
+
+-----
+
+### ubuntu octoPrint
+- 安装octoPrint
+```
+运行sudo python setup.py install
+```
+如果报错执行下两步
+- 安装pip
+- 安装setuptools
+- 配置octoPrint
+```
+#跟着web设置向导走
+```
+- 设置端口权限
+```
+lsusb #查看ardiuno是否挂载
+sudo chmod 777 /dev/ttyACM0
+```
