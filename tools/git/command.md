@@ -302,6 +302,12 @@ $ git rebase [option(--continue 继续| --abort 中断| --skip 跳过)]
 
 ```
 
+### 撤销变基
+```
+$ git reflog
+$ git reset --hard '指针如HEAD@{3}'
+```
+
 ### 其他
 ```shell
 # 生成一个可供发布的压缩包
