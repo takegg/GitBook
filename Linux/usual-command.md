@@ -53,3 +53,10 @@ rm -f *
 rm -rf log/*
 ```
 > <a href="https://blog.csdn.net/justdoithai/article/details/70216480">更多</a>
+
+## 命令安装位置
+```sh
+which '命令'
+#或
+ls -al
+```
