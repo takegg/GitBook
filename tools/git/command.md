@@ -302,7 +302,7 @@ $ git rebase [option(--continue 继续| --abort 中断| --skip 跳过)]
 
 ```
 
-### 撤销变基
+### 撤销rebase
 ```
 $ git reflog
 $ git reset --hard '指针如HEAD@{3}'
@@ -353,3 +353,28 @@ git clean 参数
     -df 删除 文件 和 目录
     
 git checkout . && git clean -xdf
+
+
+## fetch VS pull
+- fetch：拉取代码但不merge本地分支
+- pull:拉取（fetch）并merge本地分支
+
+## merge VS rebase
+- 原始开发线
+  ```
+            C---D---E local
+           /
+      A---B---F---G remote
+  ```
+- merge: 保持原始开发线
+  ```
+            C---D---E local
+           /         \
+      A---B---F---G---H remote
+  ```
+- rebase:保持一条开发线
+  ```
+                  C'--D'--E' local
+                 /
+    A---B---F---G remote
+  ```
