@@ -37,6 +37,7 @@
             * [vue-router](javascript/library/VUE/vue-router.md)
             * [vuex](javascript/library/VUE/vuex.md)
             * [plugin](javascript/library/VUE/plugin.md)
+                * [模拟截图](javascript/library/VUE/html2canvas.md)
         * [wechat](javascript/library/wechat/wechat.md)
     * [native](javascript/native/native.md)
         * [Arrow_Functions](javascript/native/Arrow_Functions.md)
