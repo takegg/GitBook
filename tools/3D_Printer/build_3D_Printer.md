@@ -178,5 +178,5 @@ sudo chmod 777 /dev/ttyACM0
 
 ### 常见问题
 1. 电源接反后果：
-   - Ramps1.6的SMD poly fuses(保险丝，最大的散热铝块下方)烧毁
+   - Ramps1.6的SMD poly fuses(保险丝，f1,f2)烧毁
    - merge2560的保险丝旁的MOSFETs()和电压调节器，Protection Diode（反极性二极管）
