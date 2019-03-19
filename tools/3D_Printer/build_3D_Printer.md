@@ -178,5 +178,7 @@ sudo chmod 777 /dev/ttyACM0
 
 ### 常见问题
 1. 电源接反后果：
-   - Ramps1.6的SMD poly fuses(保险丝，f1,f2)烧毁
-   - merge2560的保险丝旁的MOSFETs()和电压调节器，Protection Diode（反极性二极管）
+   - Ramps1.6的SMD poly fuses(贴片保险丝，f1->11A,f2->5A)烧毁
+   - merge2560的保险丝旁(500mA)的MOSFETs()和电压调节器，Protection Diode（反极性二极管）
+2. 贴片电容
+   - 其中，0603系列贴片保险丝尺寸为1.6*0.8mm；0805系列贴片保险丝尺寸为2.0*1.2mm；1206系列贴片保险丝尺寸为3.2*1.6mm；1210系列贴片保险丝尺寸为3.2*2.5mm；1812系列贴片保险丝尺寸为4.5*3.2mm；2016/2018系列贴片保险丝尺寸为5.0*5.0mm；2920系列贴片保险丝尺寸为7.5*5.5mm。<a href='https://baike.baidu.com/item/%E8%B4%B4%E7%89%87%E4%BF%9D%E9%99%A9%E4%B8%9D'>型号</a>
