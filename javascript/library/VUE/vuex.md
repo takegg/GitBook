@@ -27,6 +27,7 @@ import createPersistedState from 'vuex-persistedstate' //state持久化插件
 Vue.use(Vuex)
 
 export default new Vuex.Store({
+  namespaced:true,//使用actions,getters,mutations时需加模块名
   modules:{
       exampleMoudules,// 该模块包含自己的state,actions,getters,mutations,
       ......
