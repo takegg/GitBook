@@ -2,6 +2,7 @@
 
 ## 端口转发
 ssh -i key16730.pem -D 8081 root@206.189.47.212
+
 然后macOs：wifi->open Network Prenferences-> Proxies ->socks Proxy(127.0.0.1:8081)
 docker run -e PASSWORD=666666 -p 8388:8388 -p 8388:8388/udp -d --restart always shadowsocks/shadowsocks-libev:latest
 **进入容器**
@@ -23,7 +24,7 @@ https://hub.docker.com/u/teddysun/
 ```{
     "server":"0.0.0.0",
     "server_port":9000,
-    "password":"password0",
+    "password":"ktdcvmi90537543&$%&",
     "timeout":300,
     "method":"aes-256-gcm",
     "fast_open":true,
@@ -41,7 +42,7 @@ https://hub.docker.com/u/teddysun/
     "server_port":9000,
     "local_address":"127.0.0.1",
     "local_port":1080,
-    "password":"password0",
+    "password":"ktdcvmi90537543&$%&",
     "timeout":120,
     "method":"aes-256-cfb",
     "protocol":"origin",
