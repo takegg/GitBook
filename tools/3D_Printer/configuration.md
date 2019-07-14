@@ -58,6 +58,7 @@ Bed: 110 °C
 // Steps per Unit (Extruder) = Motor Steps per Revolution * Extruder Gear Ratio / (Pinch Wheel Diameter * Pi)
 // 每单位步数（挤出机）=每转的电机步数*挤出机齿轮比/（夹紧轮直径* Pi）
 // 目前为：(为无齿轮比类型)3200/(11*Pi)=92.599或3200/26/11*pi =3.56(错误)
+// bantch:3200(7.3*Pi)=139.533
 ```
 
 > **电机微步设置**
@@ -110,3 +111,29 @@ Bed: 110 °C
 #define DEFAULT_AXIS_STEPS_PER_UNIT {AXIS_STEPS_PER_UNIT_X, AXIS_STEPS_PER_UNIT_Y, AXIS_STEPS_PER_UNIT_Z, AXIS_STEPS_PER_UNIT_E}
 ```
 ><a href="http://calculator.josefprusa.cz/#MotorStuffSPMB">皮带轮计算</a><a href='http://calculator.josefprusa.cz/#MotorStuffSPML'>丝杆计算</a>
+
+### marlin
+```
+#define LEFT_PROBE_BED_POSITION 0 
+#define RIGHT_PROBE_BED_POSITION 225 
+#define BACK_PROBE_BED_POSITION 278 
+#define FRONT_PROBE_BED_POSITION 0
+
+以上配置画出以下检测范围
+X0,Y0 
+X225, Y0 
+X225, Y278 
+X0, Y278
+```
+
+
+###G-code
+```
+M114 当前坐标
+g1 x100 y100 z0 f500 移动坐标（从当前位置算）
+M119 endStop state
+G28 AllHome
+G29 autoLeveing
+m600 换料
+m108 换料完毕恢复打印
+```

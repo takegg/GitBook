@@ -9,6 +9,7 @@
     * [nohup](Linux/nohup.md)
     * [IOS6](Linux/IOS6.md)
     * [scp](Linux/scp.md)
+    * [ssh](Linux/ssh.md)
     * [top](Linux/top.md)
 * [工具](tools/tools.md)
     * [gitbook](tools/gitbook/gitbook.md)
