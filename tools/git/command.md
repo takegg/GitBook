@@ -125,6 +125,9 @@ $ git branch --set-upstream [branch] [remote-branch]
 # 合并指定分支到当前分支
 $ git merge [branch]
 
+# git merge一个指定文件
+git checkout xxxx（分支名）  xxxx（文件名）
+
 # 选择一个commit，合并进当前分支
 $ git cherry-pick [commit]
 
@@ -204,6 +207,9 @@ $ git blame [file]
 
 # 显示暂存区和工作区的差异
 $ git diff
+
+# 显示两个分支的不同文件
+$ git diff branch1 branch2 --stat
 
 # 显示暂存区和上一个commit的差异
 $ git diff --cached [file]
