@@ -21,7 +21,7 @@ Bridging
 . Extra inflation distance # 额外的充气距离
 . Bridging extrustion multiplier # 桥接挤压倍增器
 . 
-. Use fixed bridging infill angle # 使用固定的桥接填充角度
+. Use fixed bridging infill angle # 使用固定的桥接填充角度（默认不勾选）
 . Apply bridging settings to perimeters   # 应用拉桥设置到外围,Rectilinear(直线)，Concentric（同心）
 . 
 ```
@@ -29,7 +29,9 @@ Bridging
 ## 问题
 1. 拉桥时风扇满速->热头温度暴降->停机（Printer halted.kill() called!）
 * 风扇聚焦喷嘴下方或加热块包裹保温层。验证：待验证
-* 调降风扇最大值。验证：待验证
+* 调降风扇最大值。验证：待验证。
+* aduinoIDE上载代码报报端口错：其他可联接aduino的软件占用端口。
+
 
 2. 拉桥失败
 * 设置支撑。验证：通过

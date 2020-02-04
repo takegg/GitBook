@@ -1,7 +1,7 @@
 # ssh
 
 ## 端口转发
-ssh -i key16730.pem -D 8081 root@206.189.47.212
+ssh -i key16730.pem -D 8081 root@165.22.108.158
 
 然后macOs：wifi->open Network Prenferences-> Proxies ->socks Proxy(127.0.0.1:8081)
 docker run -e PASSWORD=666666 -p 8388:8388 -p 8388:8388/udp -d --restart always shadowsocks/shadowsocks-libev:latest
